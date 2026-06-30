@@ -8,10 +8,10 @@
             "label": "Compile Debug",
             "command": "emcc",
             "args": [
-                "@.vscode/Compile.rsp",
-                "@.vscode/Compile.Debug.rsp",
-                "@.vscode/Link.rsp",
-                "@.vscode/Link.Debug.rsp"
+                { "value": "@.vscode/Compile.rsp", "quoting": "strong" },
+                { "value": "@.vscode/Compile.Debug.rsp", "quoting": "strong" },
+                { "value": "@.vscode/Link.rsp", "quoting": "strong" },
+                { "value": "@.vscode/Link.Debug.rsp", "quoting": "strong" }
             ]
         },
         {
@@ -19,10 +19,10 @@
             "label": "Compile Release",
             "command": "emcc",
             "args": [
-                "@.vscode/Compile.rsp",
-                "@.vscode/Compile.Release.rsp",
-                "@.vscode/Link.rsp",
-                "@.vscode/Link.Release.rsp"
+                { "value": "@.vscode/Compile.rsp", "quoting": "strong" },
+                { "value": "@.vscode/Compile.Release.rsp", "quoting": "strong" },
+                { "value": "@.vscode/Link.rsp", "quoting": "strong" },
+                { "value": "@.vscode/Link.Release.rsp", "quoting": "strong" }
             ]
         },
         {
